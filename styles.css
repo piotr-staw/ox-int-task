@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7; /* Delikatnie inny odcień białego */
+    color: #000;
+    margin: 50px auto;
+    padding: 30px;
+    width: 60%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+@font-face {
+    font-family:"univia-pro";
+    src:url("https://use.typekit.net/af/618b20/00000000000000007735b249/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/618b20/00000000000000007735b249/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/618b20/00000000000000007735b249/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("opentype");
+    font-display:auto;
+    font-weight:700;
+    font-stretch:normal;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "univia-pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+figcaption {
+    margin-bottom: 30px;
+}
+
+em {
+    font-style: italic;
+    color: #777;
+}
+p {
+    margin: 0 0 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
